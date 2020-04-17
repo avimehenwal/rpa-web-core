@@ -38,7 +38,7 @@ Framework :: Robot Framework :: Library
 
 setup(
     version="1.0",
-    name="robotframework-%s" % LIBRARY_NAME.lower(),
+    name=LIBRARY_NAME,
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -52,5 +52,5 @@ setup(
     packages=[LIBRARY_NAME],
     package_dir={"": "src"},
     package_data={LIBRARY_NAME: ["rf-resources/*.resource"]},
-    install_requires=dependencies,
+    # install_requires=dependencies,
 )

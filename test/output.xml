@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.7 on linux)" generated="20200417 20:05:14.953" rpa="false">
+<suite id="s1" name="Test Rpawebcore Kw" source="/home/avi/REPO/rpa-web-core/test/test_rpawebcore_kw.robot">
+<test id="s1-t1" name="Test Empty Cases">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>from Empty test case</arg>
+</arguments>
+<msg timestamp="20200417 20:05:14.976" level="INFO">from Empty test case</msg>
+<status status="PASS" starttime="20200417 20:05:14.976" endtime="20200417 20:05:14.976"></status>
+</kw>
+<status status="PASS" starttime="20200417 20:05:14.976" endtime="20200417 20:05:14.976" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test Import Package From PyPy Package">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>inside test case</arg>
+</arguments>
+<msg timestamp="20200417 20:05:14.977" level="INFO">inside test case</msg>
+<status status="PASS" starttime="20200417 20:05:14.977" endtime="20200417 20:05:14.977"></status>
+</kw>
+<kw name="Keyword From Package">
+<msg timestamp="20200417 20:05:14.978" level="FAIL">No keyword with name 'Keyword From Package' found.</msg>
+<status status="FAIL" starttime="20200417 20:05:14.978" endtime="20200417 20:05:14.978"></status>
+</kw>
+<status status="FAIL" starttime="20200417 20:05:14.977" endtime="20200417 20:05:14.978" critical="yes">No keyword with name 'Keyword From Package' found.</status>
+</test>
+<doc>Verifies ImportResource Functionality</doc>
+<status status="FAIL" starttime="20200417 20:05:14.954" endtime="20200417 20:05:14.979"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" id="s1" name="Test Rpawebcore Kw">Test Rpawebcore Kw</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200417 20:05:14.975" level="ERROR">Error in file '/home/avi/REPO/rpa-web-core/test/test_rpawebcore_kw.robot': Importing test library 'ImportResource' failed: ModuleNotFoundError: No module named 'ImportResource'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/avi/REPO/rpa-web-core/test/venv/bin
+  /usr/lib/python37.zip
+  /usr/lib/python3.7
+  /usr/lib/python3.7/lib-dynload
+  /home/avi/REPO/rpa-web-core/test/venv/lib/python3.7/site-packages</msg>
+</errors>
+</robot>

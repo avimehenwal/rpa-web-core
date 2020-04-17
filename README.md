@@ -2,6 +2,11 @@
 
 > Core packages for web based [Robot Process Automation](rpa) Tasks
 
+## The problem
+
+Cascading resource import structure for Robot Framework
+
+
 
 ## Resources
 
