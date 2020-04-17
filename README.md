@@ -3,7 +3,11 @@
 > Core packages for web based [Robot Process Automation](rpa) Tasks
 
 
+## Resources
 
+* https://rasjani.github.io/2020/01/05/bundle-resources.html
+* https://github.com/rasjani/robotframework-importresource
+* https://github.com/rasjani/robotframework-importresource-testdata
 
 
 
